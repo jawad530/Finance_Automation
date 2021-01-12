@@ -1,0 +1,32 @@
+
+
+requirements:
+	- create json file
+		"transaction" : {
+			"name" : "withdraw money",
+			"ammount" : "-5.000.00"
+			"date": "20191028T12:00:00Z"
+			"account_number" : "940110-2737"
+		}
+
+		- sum it all up. so all the withdrawls should get summed up
+		and all the inserts should get summed up for the past month or year
+
+		- create a list of shorthands for certain types of withdrawls (salaray, buisiness expense, etc)
+
+		- based on shorthands ie. "SK" (Salary Kalle) figure out how much tax needs to be paid
+
+		- if the ammount of inserts is greater than the ammount of withdrawls, then subtract withdrawls from inserts.
+
+		- calculate my potential salary based on the ammount that is then left.
+
+		- calculate tax that needs to be paid
+
+		- save to a json file
+			"October" : {
+				"date" : ""
+				"buisiness_expenses" : ""
+				"income" : ""
+				"ending_balance_month" : ""
+				"ending_balance_total" : ""
+			}
